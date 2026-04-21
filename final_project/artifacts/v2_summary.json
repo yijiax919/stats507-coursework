@@ -1,0 +1,16 @@
+{
+  "best_model": "word_svc_balanced",
+  "best_val_f1": 0.7333357484058005,
+  "corresponding_test_f1": 0.4524742895332715,
+  "gap": 0.280861458872529,
+  "selection_metric": "val_macro_f1",
+  "best_test_model": "word_lr_l2_strong",
+  "best_test_f1": 0.5177092052898776,
+  "best_test_model_val_f1": 0.6567633124751039,
+  "best_test_model_gap": 0.13905410718522626,
+  "original_best_model": "word_svc",
+  "original_test_f1": 0.4823715963071689,
+  "original_gap": 0.24611006705280442,
+  "improvement_over_original": -0.029897306773897403,
+  "gap_reduction": -0.034751391819724586
+}

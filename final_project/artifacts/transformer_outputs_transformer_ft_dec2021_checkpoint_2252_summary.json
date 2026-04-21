@@ -1,0 +1,12 @@
+{
+  "model_name": "outputs/transformer_ft_dec2021/checkpoint-2252",
+  "data_source": "huggingface",
+  "eval_only": true,
+  "threshold_strategy": "validation_macro_f1_search",
+  "selected_threshold": 0.84,
+  "validation_macro_f1": 0.8115657864582007,
+  "validation_accuracy": 0.815,
+  "test_macro_f1": 0.5551227747727252,
+  "test_accuracy": 0.5787878787878787,
+  "output_dir": "F:\\tweeteval_hate_project_complete\\tweeteval_hate_project\\outputs\\transformer_ft_dec2021_eval"
+}

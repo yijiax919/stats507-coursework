@@ -1,0 +1,17 @@
+error_type,sanitized_text,label,prediction
+false_positive,"@USER , you are correct that Reid certainly is a weasel. Sadly, we've got our own weasels; @USER Sen McConnell & @USER .The corrupt Mueller investigation w/be STOPPED if ",0,1
+false_positive,@USER @USER @USER Always #NoDACA.I AM BORN IN #USA AND #USA FIRST.,0,1
+false_positive,@USER friends ? that's my BLOOD brother b**** .. he in yo city !! i'm hours away . ill be through there tomo…,0,1
+false_positive,@USER @USER Like he ever kept out any threats. He's lying as usual. #b************,0,1
+false_positive,@USER @USER They can scrim wh**ver they fucking want this isn't a fucking chall you dumb b****,0,1
+false_positive,Ok b**** nigga. You don't even watch basketball! Stfu. Who was the laker coach this year? Bet yo h** ass look it up…,0,1
+false_positive,Fuck wh**ver drank 2 of my teas. Fuck you. And your fucking family. And I wish bad juju karma on you. Because you're a mf cunt waffle.,0,1
+false_positive,@USER @USER Toronto is starting to sound like LondonstanWe have to get on the #MadMax2019 train!!@USER is the only one who can get our country back.#BanMuslims #BanIslam ,0,1
+false_negative,You cuff dat b**** you goofy h** cause my brudda josh been break dat h**.,1,0
+false_negative,8. I REMEMBER LIVE DMING U DWP. ur a g and i hope yr 11 treats u right. REMEMBER MY ADIVCE U b**** ASS CUNT. ilysm!!,1,0
+false_negative,b****‼️stop calling me from block.. wh**ver you is,1,0
+false_negative,@USER @USER That's what happens when you let in a bunch of savages from Africa riddled with diseases!!! #CloseTheBorders #SendThemBack,1,0
+false_negative,"Parental neglect of migrant children ignored by Feds | Sheila Gunn Reid #Canada Disgusting Savages Destroying #CanadaHotels feces, urine, flooding & abuse of Staff! #Depo",1,0
+false_negative,"""Please don't call it """"rescue"""" - it's human trafficking #portsclosed #sendthemback #benefitseekers""",1,0
+false_negative,"""@USER I am sure he lied about it on his application. They need to deport him like they're doing to all naturalized citizens who """"lied"""" on the apps. #sendthemback""",1,0
+false_negative,"""#Navy rescued #Manchester bomber Salman Abedi from war-torn #Libya three years before deadly terror attack via @USER #WEST is """"rescuing"""" people that will #kill them.#S",1,0

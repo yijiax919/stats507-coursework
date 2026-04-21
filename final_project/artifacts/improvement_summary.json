@@ -1,0 +1,10 @@
+{
+  "best_original_model": "word_lr_original",
+  "best_original_val_f1": 0.7311913130844417,
+  "best_original_test_f1": 0.4779597554429651,
+  "best_improved_model": "word_svc_strong_reg",
+  "best_improved_val_f1": 0.7349203461628421,
+  "best_improved_test_f1": 0.4641460296375334,
+  "test_improvement": -0.01381372580543172,
+  "gap_reduction": -0.017542758883832055
+}

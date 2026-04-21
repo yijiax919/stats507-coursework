@@ -1,0 +1,6 @@
+{
+  "best_validation_model": "word_svc",
+  "best_validation_macro_f1": 0.7278148816197858,
+  "corresponding_test_macro_f1": 0.4813881275765467,
+  "largest_drop_val_to_test_macro_f1": 0.2684564325878699
+}

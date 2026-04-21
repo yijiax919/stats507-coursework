@@ -1,0 +1,12 @@
+{
+  "model_name": "cardiffnlp/twitter-roberta-base-dec2021",
+  "data_source": "huggingface",
+  "eval_only": false,
+  "threshold_strategy": "validation_macro_f1_search",
+  "selected_threshold": 0.845,
+  "validation_macro_f1": 0.8115657864582007,
+  "validation_accuracy": 0.815,
+  "test_macro_f1": 0.5548401277426529,
+  "test_accuracy": 0.5784511784511784,
+  "output_dir": "F:\\tweeteval_hate_project_complete\\tweeteval_hate_project\\outputs\\transformer_ft_dec2021"
+}

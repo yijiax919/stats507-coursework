@@ -1,0 +1,129 @@
+{
+  "config": {
+    "model_name": "cardiffnlp/twitter-roberta-base-dec2021",
+    "output_dir": "outputs/transformer_ft_dec2021",
+    "max_length": 128,
+    "epochs": 5,
+    "batch_size": 16,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "gradient_accumulation_steps": 1,
+    "patience": 2,
+    "seed": 42,
+    "eval_only": false,
+    "tune_threshold": true,
+    "save_predictions": true,
+    "no_fp16": false
+  },
+  "summary": {
+    "model_name": "cardiffnlp/twitter-roberta-base-dec2021",
+    "data_source": "huggingface",
+    "eval_only": false,
+    "threshold_strategy": "validation_macro_f1_search",
+    "selected_threshold": 0.845,
+    "validation_macro_f1": 0.8115657864582007,
+    "validation_accuracy": 0.815,
+    "test_macro_f1": 0.5548401277426529,
+    "test_accuracy": 0.5784511784511784,
+    "output_dir": "F:\\tweeteval_hate_project_complete\\tweeteval_hate_project\\outputs\\transformer_ft_dec2021"
+  },
+  "trainer_validation_metrics": {
+    "validation_loss": 0.9310140609741211,
+    "validation_accuracy": 0.802,
+    "validation_macro_f1": 0.8000799680127949,
+    "validation_runtime": 37.9598,
+    "validation_samples_per_second": 26.344,
+    "validation_steps_per_second": 1.66
+  },
+  "trainer_test_metrics": {
+    "test_loss": 2.675971508026123,
+    "test_accuracy": 0.5646464646464646,
+    "test_macro_f1": 0.5347394338015853,
+    "test_runtime": 127.4246,
+    "test_samples_per_second": 23.308,
+    "test_steps_per_second": 1.46
+  },
+  "validation": {
+    "accuracy": 0.815,
+    "macro_f1": 0.8115657864582007,
+    "confusion_matrix": [
+      [
+        475,
+        98
+      ],
+      [
+        87,
+        340
+      ]
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 0.8451957295373665,
+        "recall": 0.8289703315881326,
+        "f1-score": 0.8370044052863436,
+        "support": 573.0
+      },
+      "1": {
+        "precision": 0.776255707762557,
+        "recall": 0.7962529274004684,
+        "f1-score": 0.7861271676300579,
+        "support": 427.0
+      },
+      "accuracy": 0.815,
+      "macro avg": {
+        "precision": 0.8107257186499618,
+        "recall": 0.8126116294943004,
+        "f1-score": 0.8115657864582007,
+        "support": 1000.0
+      },
+      "weighted avg": {
+        "precision": 0.8157583402395229,
+        "recall": 0.815,
+        "f1-score": 0.8152798248071097,
+        "support": 1000.0
+      }
+    }
+  },
+  "test": {
+    "accuracy": 0.5784511784511784,
+    "macro_f1": 0.5548401277426529,
+    "confusion_matrix": [
+      [
+        517,
+        1201
+      ],
+      [
+        51,
+        1201
+      ]
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 0.9102112676056338,
+        "recall": 0.3009313154831199,
+        "f1-score": 0.45231846019247596,
+        "support": 1718.0
+      },
+      "1": {
+        "precision": 0.5,
+        "recall": 0.9592651757188498,
+        "f1-score": 0.6573617952928298,
+        "support": 1252.0
+      },
+      "accuracy": 0.5784511784511784,
+      "macro avg": {
+        "precision": 0.7051056338028169,
+        "recall": 0.6300982456009849,
+        "f1-score": 0.5548401277426529,
+        "support": 2970.0
+      },
+      "weighted avg": {
+        "precision": 0.7372871911604306,
+        "recall": 0.5784511784511784,
+        "f1-score": 0.5387542364704703,
+        "support": 2970.0
+      }
+    }
+  }
+}

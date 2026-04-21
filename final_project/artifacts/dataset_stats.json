@@ -1,0 +1,15 @@
+{
+  "source": "local_csv_fallback",
+  "splits": {
+    "train": 9000,
+    "validation": 1000,
+    "test": 2970
+  },
+  "label_counts_train": {
+    "0": 5217,
+    "1": 3783
+  },
+  "avg_text_len_chars_train": 122.83833333333334,
+  "median_text_len_chars_train": 110.0,
+  "max_text_len_chars_train": 303
+}
