@@ -3,7 +3,7 @@
 This is the final project for STATS 507.
 
 ## Project Overview
-This project compares classical machine learning baselines and Twitter-specialized transformer models for hate speech detection on the TweetEval hate dataset.
+This project studies hate speech detection on the TweetEval dataset. It compares classical machine learning models (such as TF-IDF with Logistic Regression and SVM) with transformer-based models (Twitter RoBERTa and fine-tuned versions). The main goal is to evaluate performance differences and understand model behavior.
 
 ## Main Methods
 - TF-IDF + Logistic Regression
@@ -16,10 +16,8 @@ This project compares classical machine learning baselines and Twitter-specializ
 - Accuracy
 
 ## Repository Structure
-- code/: training and evaluation scripts
-- figures/: plots used in the report
-- report/: final PDF report
-- requirements.txt: required Python packages
-
-## How to Run
-Instructions will be added after the code files are uploaded.
+* scripts/ for running experiments
+* src/ for preprocessing and evaluation code
+* data/ for dataset files
+* figures/ for plots used in the report
+* artifacts/ for final results and summaries
